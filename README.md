@@ -1,18 +1,18 @@
 # How To Generate Token Pickle With Android Easily After Google Auth2.0 New policy update. Without any kind of error.
 
-### 1. Install Termux [F-Droid](https://f-droid.org/en/packages/com.termux/)
+### 1. Install Termux [Play Store](https://play.google.com/store/apps/details?id=com.termux)
 
 ### 2. Open Termux and just copy paste all the commands that described below, Make sure you have internet connection. if you see Y/n then Type y.
 
 ```
-sudo apt update && sudo apt upgrade -y && sudo apt install git python3 python3-pip -y && sudo apt upgrade python3 -y && python3 -m pip install --upgrade pip && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+apt update && apt upgrade && pkg i git && pkg i python3 && pkg update python && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib && pip install --upgrade pip
 
 ```
 
 ### 3.
 
 ```
-git clone https://github.com/FollowNaim/TokenPickle
+git clone https://github.com/xeroxbayzid/TokenPickle
 ```
 
 ### 4. make sure Credentials.json file present in your storage folder not in Sd card. if not then just move credentials.json file into the sdcard. Not in any folder.
@@ -67,4 +67,4 @@ We're Done.
 
 # Credits...
 
-[`Anasty17`](https://github.com/anasty17)
+[`Telegram : @xerox_bazyid`](https://t.me/xerox_bayzid)
